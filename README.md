@@ -1,4 +1,4 @@
-<img width="313" height="289" alt="image" src="https://github.com/user-attachments/assets/5154af2f-0ce9-4e19-bae2-a35807040d80" /># Corpse: Kibou no Hana  
+Corpse: Kibou no Hana  
 _遗体：希望之花_
 
 > “止まるんじゃねぇぞ……”  
