@@ -12,7 +12,7 @@ This mod is an **extension for [Corpse](https://www.curseforge.com/minecraft/mc-
 
 ## 🧠 特点 | Features
 
-- 🎭 重现 奥尔加团长 的“黑色幽默”姿势  
+- 🎭 重现奥尔加团长的“不要停下来啊”姿势  
   Faithfully recreates the infamous Orga death pose.
 - 🧍‍♂️ 仅影响渲染为尸体的 DummyPlayer，不会干扰普通玩家或其他模型  
   Pose changes are isolated to corpses only; no impact on players or statue mods.
