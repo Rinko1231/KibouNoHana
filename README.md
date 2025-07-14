@@ -1,4 +1,4 @@
-Corpse: Kibou no Hana  
+# Corpse: Kibou no Hana  
 _遗体：希望之花_
 
 > “止まるんじゃねぇぞ……”  
