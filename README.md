@@ -30,21 +30,23 @@ _
 
 ## 🧩 配置说明 | Config Behavior
 
-- 模组只在玩家尸体为脸朝下（`corpse.lie_on_face=true`）时才会生效  
-  Only activates when `corpse.lie_on_face` config is set to `true`.
+- ✅ 模组仅在玩家尸体为**脸朝下**时生效（即 `corpse.lie_on_face=true`）  
+  ✅ This mod only takes effect when the player's corpse is **face-down** (`corpse.lie_on_face=true`).
 
-- 为了提升使用体验，本模组通过 Mixin 技术，将 `corpse.lie_on_face` 配置项的默认值改为了 `true`，无需手动更改配置文件。
-  To improve ease of use, this mod modifies the default value of the `corpse.lie_on_face` setting to `true` via Mixin, so users don’t need to manually edit config files.
+- ⚙️ 为了提升使用体验，模组通过 Mixin 技术将该配置的默认值设为 `true`，一般情况下**无需手动修改配置文件**  
+  ⚙️ To improve user experience, the mod sets this config's default value to `true` via Mixin — so **manual editing is usually unnecessary**.
 
-- 📁 注意：Corpse 模组在 Minecraft 1.20.1 中的配置文件是按存档分开的，保存在 `saves/<存档名>/serverconfig/corpse-server.toml`。
-   新存档会自动使用新默认值，但已有存档需要你自行前往该路径将该选项设为 `true` 才能生效。
+- 📁 注意：在 Minecraft 1.20.1 中，Corpse 模组的配置文件是**每个存档独立的**，路径为：  
+  `saves/<存档名>/serverconfig/corpse-server.toml`  
+  新建存档会自动使用新默认值，但旧存档可能需要你**手动修改该文件**中的 `corpse.lie_on_face=true`
 
-- 📁 Note: In Minecraft 1.20.1, Corpse’s config is stored **per world**, located at `saves/<world_name>/serverconfig/corpse-server.toml`.
-   The new default applies automatically in **new saves**, but for existing worlds, you may need to manually set `corpse.lie_on_face=true` for it to take effect.
+- 📁 Note: In Minecraft 1.20.1, Corpse’s config is stored **per world** at:  
+  `saves/<world_name>/serverconfig/corpse-server.toml`  
+  The new default applies automatically for **new worlds**, but for **existing saves**, you may need to manually set `corpse.lie_on_face=true`.
+
 
 
   
-
 ---
 
 > 这是一个向角色致敬、又带点黑色幽默色彩的模组。  
