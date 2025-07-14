@@ -1,4 +1,4 @@
-# Corpse: Kibou no Hana  _遗体：希望之花_
+# Corpse: Kibou no Hana  _希望之花_
 
 
 > “止まるんじゃねぇぞ……”  
@@ -27,10 +27,24 @@ _
 
 - [Corpse](https://www.curseforge.com/minecraft/mc-mods/corpse)
 
-## ⚠️ 注意 | Notes
+
+## 🧩 配置说明 | Config Behavior
 
 - 模组只在玩家尸体为脸朝下（`corpse.lie_on_face=true`）时才会生效  
   Only activates when `corpse.lie_on_face` config is set to `true`.
+
+- 为了提升使用体验，本模组通过 Mixin 技术，将 `corpse.lie_on_face` 配置项的默认值改为了 `true`，无需手动更改配置文件。
+
+To improve ease of use, this mod modifies the default value of the `corpse.lie_on_face` setting to `true` via Mixin, so users don’t need to manually edit config files.
+
+> 📁 注意：Corpse 模组在 Minecraft 1.20.1 中的配置文件是按存档分开的，保存在 `saves/<存档名>/serverconfig/corpse-server.toml`。  
+> 新存档会自动使用新默认值，但已有存档需要你自行前往该路径将该选项设为 `true` 才能生效。
+
+> 📁 Note: In Minecraft 1.20.1, Corpse’s config is stored **per world**, located at `saves/<world_name>/serverconfig/corpse-server.toml`.  
+> The new default applies automatically in **new saves**, but for existing worlds, you may need to manually set `corpse.lie_on_face=true` for it to take effect.
+
+
+  
 
 ---
 
