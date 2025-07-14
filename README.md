@@ -8,12 +8,12 @@
 
 本模组是 [**Corpse**](https://www.curseforge.com/minecraft/mc-mods/corpse) 的一个趣味附属模组。它通过 Mixin 技术，修改了原版尸体的渲染逻辑，使当玩家脸朝下倒地时，其尸体会以一种特别的姿势呈现——正是来自《机动战士高达 铁血的奥尔芬斯》中奥尔加·伊兹卡（Orga Itsuka）壮烈牺牲时的那副令人印象深刻的倒地动作。
 
-This mod is an **extension for [Corpse](https://www.curseforge.com/minecraft/mc-mods/corpse)** that reworks the player's corpse pose when lying face-down. Inspired by the iconic (and ironically memed) death scene of **Orga Itsuka** from _Mobile Suit Gundam: Iron-Blooded Orphans_, this mod adjusts the rendering to replicate his dramatic fall.
+This mod is an **extension for [Corpse](https://www.curseforge.com/minecraft/mc-mods/corpse)** that reworks the player's corpse pose when lying face-down. Inspired by the iconic (and black humor memed) death scene of **Orga Itsuka** from _Mobile Suit Gundam: Iron-Blooded Orphans_, this mod adjusts the rendering to replicate his dramatic fall.
 
 ## 🧠 特点 | Features
 
 - 🎭 重现奥尔加团长的“不要停下来啊”姿势  
-  Faithfully recreates the infamous Orga death pose.
+  Faithfully recreates the "famous" Orga death pose.
 - 🧍‍♂️ 仅影响渲染为尸体的 DummyPlayer，不会干扰普通玩家或其他模型  
   Pose changes are isolated to corpses only; no impact on players or statue mods.
 
