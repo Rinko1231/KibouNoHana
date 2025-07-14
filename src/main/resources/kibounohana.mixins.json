@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.kibounohana.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "kibounohana.refmap.json",
+  "mixins": [
+    "CorpseServerConfigMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "PlayerModelMixin"
+  ]
+}
